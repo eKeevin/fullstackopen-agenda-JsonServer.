@@ -1,0 +1,37 @@
+.container {
+  background-color: #ccd4df;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;       /* ocupa todo el ancho posible dentro del wrapper */
+  max-width: 68rem;  /* un poco menos que el wrapper */
+  margin: 0 auto;    /* centrado */
+  box-sizing: border-box
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 6px;
+  
+  border-radius: 6px;
+  word-break: break-word;
+
+}
+
+.person:hover {
+  background: #f1f1f1;
+}
+
+.deleteButton {
+  background: #5386a1;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background: #456492;
+}

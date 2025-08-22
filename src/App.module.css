@@ -1,0 +1,41 @@
+/* App.module.css */
+.wrapper {
+max-width: 50rem; /* ancho más contenido */
+  margin:  auto; /* centrado horizontal con un poco de espacio superior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* 🔹 esto centra horizontalmente */
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 2rem;
+  font-family:sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #5181b8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   box-sizing: border-box
+}
+
+.title {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #34495e;
+  margin-top: 2rem;
+}
+
+.filterBox {
+  margin-bottom: 2rem;
+  
+
+}
+
+.filterBox p {
+  color: #264f5f;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+ 
+
+}
